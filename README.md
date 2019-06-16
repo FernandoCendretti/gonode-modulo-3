@@ -5,8 +5,8 @@
 ## Instalação
 
 ```
-$ git clone https://github.com/FernandoCendretti/gonode-module-2.git
-$ cd go-node-module2/
+$ git clone https://github.com/FernandoCendretti/gonode-modulo-3.git
+$ cd gonode-modulo-3/
 $ npm install || yarn
 ```
 
