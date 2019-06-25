@@ -8,7 +8,9 @@ class AdController {
    * @param {express.Response} res
    */
   async index (req, res) {
-    const filters = {}
+    const filters = {
+      purchasedBy: null
+    }
 
     if (req.query.price_min || req.query.price_max) {
       filters.price = {}
